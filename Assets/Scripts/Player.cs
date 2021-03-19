@@ -4,6 +4,13 @@ public class Player : MonoBehaviour
 {
     [SerializeField] float maxDistance = 30f;
 
+    private SphereManager _sphereManager;
+
+    void Start()
+    {
+        _sphereManager = FindObjectOfType<SphereManager>();
+    }
+
     void Update()
     {
         if(Input.GetMouseButtonDown(0))
@@ -13,7 +20,10 @@ public class Player : MonoBehaviour
 
             if(Physics.Raycast (ray, out hit, maxDistance))
             {
-                Debug.Log(hit.transform.name);
+                if(hit.transform.tag == "Sphere")
+                {
+                    _sphereManager.MoveSphere(hit.transform.gameObject);
+                }
             }
         }
     }

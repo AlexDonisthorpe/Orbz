@@ -45,4 +45,9 @@ public class SphereManager : MonoBehaviour
 
         return new Vector3(randX, randY, randZ);
     }
+
+    public void MoveSphere(GameObject sphere)
+    {
+        sphere.transform.position = GetRandomPosition();
+    }
 }
