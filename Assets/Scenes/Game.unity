@@ -2727,6 +2727,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4103adc39736c964a835580f97222d9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 2800000, guid: a9b3b6e7f599cd94ebf5d4e8babde0d6, type: 3}
   maxDistance: 30
 --- !u!1 &983692892
 GameObject:
@@ -4805,7 +4806,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 99999999999
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
