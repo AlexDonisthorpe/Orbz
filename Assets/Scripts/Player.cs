@@ -4,10 +4,12 @@ public class Player : MonoBehaviour
 {
     [SerializeField] float maxDistance = 30f;
 
+    private ScoreManager _scoreManager;
     private SphereManager _sphereManager;
 
     void Start()
     {
+        _scoreManager = FindObjectOfType<ScoreManager>();
         _sphereManager = FindObjectOfType<SphereManager>();
     }
 
@@ -23,6 +25,7 @@ public class Player : MonoBehaviour
                 if(hit.transform.tag == "Sphere")
                 {
                     _sphereManager.MoveSphere(hit.transform.gameObject);
+                    _scoreManager.UpdateScore(hit.transform.localScale.x);
                 }
             }
         }
