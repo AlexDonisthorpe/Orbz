@@ -27,6 +27,10 @@ public class Player : MonoBehaviour
                     _sphereManager.MoveSphere(hit.transform.gameObject);
                     _scoreManager.UpdateScore(hit.transform.localScale.x);
                 }
+                else
+                {
+                    _scoreManager.ResetMultiplyer();
+                }
             }
         }
     }
