@@ -11,9 +11,11 @@ public class LevelTimer : MonoBehaviour
     private float _startTime;
     private bool _started = false;
 
+    public delegate void Timer();
+    public static event Timer TimeUp;
+
     public void StartLevel()
     {
-        Debug.Log("Starting");
         _startTime = Time.timeSinceLevelLoad;
         _started = true;
         FindObjectOfType<SphereManager>().StartGame();
@@ -36,6 +38,7 @@ public class LevelTimer : MonoBehaviour
 
     private void EndLevel()
     {
+        TimeUp();
         gameOverCanvas.SetActive(true);
     }
 }

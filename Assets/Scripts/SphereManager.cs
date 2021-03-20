@@ -14,6 +14,11 @@ public class SphereManager : MonoBehaviour
 
     List<GameObject> sphereList = new List<GameObject>();
 
+    private void OnEnable()
+    {
+        LevelTimer.TimeUp += DeleteSpheres;
+    }
+
     public void StartGame()
     {
         SpawnNewSphere();
@@ -41,5 +46,13 @@ public class SphereManager : MonoBehaviour
     {
         sphere.transform.position = GetRandomPosition();
         SpawnNewSphere();
+    }
+
+    private void DeleteSpheres()
+    {
+        foreach(GameObject sphere in sphereList)
+        {
+            Destroy(sphere);
+        }
     }
 }

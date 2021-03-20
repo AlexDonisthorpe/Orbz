@@ -9,33 +9,46 @@ public class Player : MonoBehaviour
     private ScoreManager _scoreManager;
     private SphereManager _sphereManager;
 
+    bool gameOver = false;
+
     void Start()
     {
         Cursor.SetCursor(cursorTexture, new Vector2(cursorTexture.width / 2, cursorTexture.height / 2), CursorMode.Auto);
 
         _scoreManager = FindObjectOfType<ScoreManager>();
         _sphereManager = FindObjectOfType<SphereManager>();
+
+        LevelTimer.TimeUp += GameOver;
     }
 
     void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if(!gameOver)
         {
-            RaycastHit hit;
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-
-            if(Physics.Raycast (ray, out hit, maxDistance))
+            if (Input.GetMouseButtonDown(0))
             {
-                if(hit.transform.tag == "Sphere")
+                RaycastHit hit;
+                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+
+                if (Physics.Raycast(ray, out hit, maxDistance))
                 {
-                    _sphereManager.MoveSphere(hit.transform.gameObject);
-                    _scoreManager.UpdateScore(hit.transform.localScale.x);
-                }
-                else
-                {
-                    _scoreManager.ResetMultiplyer();
+                    if (hit.transform.tag == "Sphere")
+                    {
+                        _sphereManager.MoveSphere(hit.transform.gameObject);
+                        _scoreManager.UpdateScore(hit.transform.localScale.x);
+                    }
+                    else
+                    {
+                        _scoreManager.ResetMultiplyer();
+                    }
                 }
             }
         }
+
+    }
+
+    private void GameOver()
+    {
+        gameOver = true;
     }
 }
