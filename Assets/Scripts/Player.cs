@@ -2,8 +2,6 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-
-    [SerializeField] Texture2D cursorTexture;
     [SerializeField] float maxDistance = 30f;
 
     private ScoreManager _scoreManager;
@@ -13,8 +11,6 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-        Cursor.SetCursor(cursorTexture, new Vector2(cursorTexture.width / 2, cursorTexture.height / 2), CursorMode.Auto);
-
         _scoreManager = FindObjectOfType<ScoreManager>();
         _sphereManager = FindObjectOfType<SphereManager>();
 

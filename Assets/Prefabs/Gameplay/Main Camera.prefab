@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 750920000033823525}
   - component: {fileID: 750920000033823524}
   - component: {fileID: 750920000033823523}
+  - component: {fileID: 321388788}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -96,5 +97,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4103adc39736c964a835580f97222d9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cursorTexture: {fileID: 2800000, guid: a9b3b6e7f599cd94ebf5d4e8babde0d6, type: 3}
   maxDistance: 30
+--- !u!114 &321388788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750920000033823527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77b7e63bacb18334f87188090bddd576, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 2800000, guid: a9b3b6e7f599cd94ebf5d4e8babde0d6, type: 3}
