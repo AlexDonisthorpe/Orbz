@@ -26,6 +26,8 @@ public class SphereManager : MonoBehaviour
     public void StartGame()
     {
         SpawnNewSphere();
+        // TODO Spawn more than one sphere
+        // Potentially delay spawns that decreases over time?
     }
 
     private void SpawnNewSphere()
