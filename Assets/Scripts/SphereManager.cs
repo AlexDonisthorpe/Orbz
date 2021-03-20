@@ -14,20 +14,9 @@ public class SphereManager : MonoBehaviour
 
     List<GameObject> sphereList = new List<GameObject>();
 
-
-    void Update()
-    {   //Purely for testing
-        if(Input.GetKeyDown(KeyCode.S))
-        {
-            SpawnNewSphere();
-        }
-    }
-
     public void StartGame()
     {
         SpawnNewSphere();
-        // TODO Spawn more than one sphere
-        // Potentially delay spawns that decreases over time?
     }
 
     private void SpawnNewSphere()
@@ -51,5 +40,6 @@ public class SphereManager : MonoBehaviour
     public void MoveSphere(GameObject sphere)
     {
         sphere.transform.position = GetRandomPosition();
+        SpawnNewSphere();
     }
 }
