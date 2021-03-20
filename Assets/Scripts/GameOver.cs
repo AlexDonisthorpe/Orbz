@@ -9,6 +9,7 @@ public class GameOver : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI inputObject;
     [SerializeField] private TextMeshProUGUI scoreText;
+    [SerializeField] private GameObject submittedText;
 
     private uint score;
 
@@ -51,6 +52,7 @@ public class GameOver : MonoBehaviour
         newScore.entryScore = score;
 
         FindObjectOfType<Scoreboard>().AddEntry(newScore);
+        submittedText.SetActive(true);
     }
 
 }
