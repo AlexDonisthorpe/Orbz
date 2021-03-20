@@ -36,4 +36,9 @@ public class ScoreManager : MonoBehaviour
     {
         multiplierText.text = "x" + currentMultipler.ToString();
     }
+
+    public uint GetScore()
+    {
+        return currentScore;
+    }
 }

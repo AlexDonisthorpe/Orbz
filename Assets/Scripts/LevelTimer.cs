@@ -6,6 +6,7 @@ public class LevelTimer : MonoBehaviour
 {
     [SerializeField] float levelDuration = 100;
     [SerializeField] Slider slider;
+    [SerializeField] private GameObject gameOverCanvas;
 
     private float _startTime;
     private bool _started = false;
@@ -28,16 +29,13 @@ public class LevelTimer : MonoBehaviour
             if(timeRemaining >= 1)
             {
                 _started = false;
-                //EndLevel();
+                EndLevel();
             }
         }
     }
 
     private void EndLevel()
     {
-        // TODO End Level
-        //  - Spawn UI
-        //  - Add Score
-        throw new NotImplementedException();
+        gameOverCanvas.SetActive(true);
     }
 }
