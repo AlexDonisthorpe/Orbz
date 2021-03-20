@@ -26,7 +26,7 @@ public class MainMenu : MonoBehaviour
         highScoreCanvas.SetActive(true);
     }
 
-    private void CloseSubMenus()
+    public void CloseSubMenus()
     {
         howToPlayCanvas.SetActive(false);
         highScoreCanvas.SetActive(false);

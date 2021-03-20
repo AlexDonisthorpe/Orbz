@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using Orbz.Scoreboards;
 
 public class GameOver : MonoBehaviour
 {
@@ -44,7 +45,12 @@ public class GameOver : MonoBehaviour
         string username = inputObject.text;
 
         Debug.Log($"{username} : {score.ToString()}");
-        // Create ScoreData & Add Score;
+
+        var newScore = new ScoreboardEntryData();
+        newScore.entryName = username;
+        newScore.entryScore = score;
+
+        FindObjectOfType<Scoreboard>().AddEntry(newScore);
     }
 
 }
