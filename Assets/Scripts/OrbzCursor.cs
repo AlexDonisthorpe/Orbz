@@ -25,7 +25,7 @@ public class OrbzCursor : MonoBehaviour
 
     public void SetColor(Colours.ColourNames newColor)
     {
-        if(newColor == Colours.ColourNames.Blue)
+        if(newColor == Colours.ColourNames.Red)
         {
             SetCursorColour(redCursorTexture);
             currentColor = Colours.ColourNames.Red;
