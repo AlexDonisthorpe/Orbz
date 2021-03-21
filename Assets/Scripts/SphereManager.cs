@@ -30,7 +30,7 @@ public class SphereManager : MonoBehaviour
 
         var newSphere = Instantiate(spherePrefab, GetRandomPosition(), Quaternion.identity);
         newSphere.transform.SetParent(gameObject.transform, true);
-        newSphere.GetComponent<MeshRenderer>().material.SetColor("_Color", GetRandomColor());
+        newSphere.GetComponent<Sphere>().SetColour(GetRandomColor());
         sphereList.Add(newSphere);
     }
 
@@ -45,16 +45,15 @@ public class SphereManager : MonoBehaviour
 
     public void MoveSphere(GameObject sphere)
     {
-        Color newColor = GetRandomColor();
+        Colours.ColourNames newColour = GetRandomColor();
         sphere.transform.position = GetRandomPosition();
-        sphere.GetComponent<MeshRenderer>().material.SetColor("_Color", newColor);
-        sphere.GetComponent<MeshRenderer>().material.SetColor("_EmissionColor", newColor);
+        sphere.GetComponent<Sphere>().SetColour(newColour);
         SpawnNewSphere();
     }
 
-    private Color GetRandomColor()
+    private Colours.ColourNames GetRandomColor()
     {
-        Color[] sphereColors = { Color.red, Color.blue, Color.yellow };
+        Colours.ColourNames[] sphereColors = { Colours.ColourNames.Red, Colours.ColourNames.Blue, Colours.ColourNames.Yellow };
         return sphereColors[Random.Range(0, 3)];
     }
 

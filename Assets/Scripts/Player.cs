@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 
     private ScoreManager _scoreManager;
     private SphereManager _sphereManager;
+    private OrbzCursor _cursor;
 
     bool gameOver = false;
 
@@ -13,6 +14,7 @@ public class Player : MonoBehaviour
     {
         _scoreManager = FindObjectOfType<ScoreManager>();
         _sphereManager = FindObjectOfType<SphereManager>();
+        _cursor = FindObjectOfType<OrbzCursor>();
 
         LevelTimer.TimeUp += GameOver;
     }
@@ -30,6 +32,11 @@ public class Player : MonoBehaviour
                 {
                     if (hit.transform.tag == "Sphere")
                     {
+                        Colours.ColourNames sphereColor = hit.transform.GetComponent<Sphere>().GetColour();
+
+                        FindObjectOfType<MatchingBox>().HandleMatchingColour(_cursor.GetColor(), sphereColor);
+
+                        _cursor.SetColor(sphereColor);
                         _sphereManager.MoveSphere(hit.transform.gameObject);
                         _scoreManager.UpdateScore(hit.transform.localScale.x);
                     }
