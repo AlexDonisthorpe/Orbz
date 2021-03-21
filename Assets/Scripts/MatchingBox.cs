@@ -5,8 +5,11 @@ public class MatchingBox : MonoBehaviour
     Colours.ColourNames[] coloursToChoose = { Colours.ColourNames.Purple, Colours.ColourNames.Orange, Colours.ColourNames.Green };
     Colours.ColourNames currentColour;
 
+    Animator _animator;
+
     void Start()
     {
+        _animator = GetComponent<Animator>();
         GetRandomColour();
     }
 
@@ -66,6 +69,7 @@ public class MatchingBox : MonoBehaviour
 
         if(doubleValue)
         {
+            _animator.SetTrigger("ScoreDoubled");
             FindObjectOfType<ScoreManager>().DoubleScore();
         }
     }
