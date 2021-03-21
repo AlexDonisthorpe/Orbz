@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A945FEF8-CFC4-4BA3-92FF-9BA63BC60117}" SchemaVersion="97">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{A945FEF8-CFC4-4BA3-92FF-9BA63BC60117}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="Music" ID="{3231AF25-437C-488E-91EA-EB0CEF9D7940}" ShortID="632570603">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7AF20385-E6D7-4E32-BBE8-26C9186E743A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{91FDDDF9-465E-4D99-96E5-267DBCC7889E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="HAckathonasd" ID="{578B1AD0-42B8-465B-9DC3-78747E5C33BD}" ShortID="354340482">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="105692.3125"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7AF20385-E6D7-4E32-BBE8-26C9186E743A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{91FDDDF9-465E-4D99-96E5-267DBCC7889E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="HAckathonasd" ID="{2BF82778-7D60-4CE4-B18C-C5A9ECBC9F4C}" ShortID="701059295">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{91FDDDF9-465E-4D99-96E5-267DBCC7889E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="HAckathonasd" ID="{A4474731-DB3C-47C0-8DF9-4C73AB7E6A8E}">
+											<Language>SFX</Language>
+											<AudioFile>HAckathonasd.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="996110553"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{82B36542-4687-4068-A577-2916DB87F7B3}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{53512D80-F2AE-4539-94D2-225774A4CB6D}">
+											<ClipList>
+												<MusicClip Name="HAckathonasd" ID="{3A8E5921-F2A0-4627-8A88-6AF8D977004D}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="105692.3125"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="HAckathonasd" ID="{A4474731-DB3C-47C0-8DF9-4C73AB7E6A8E}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{BEB4273A-C4E3-4E8F-B598-B094BD6BBE41}"/>
+								<MusicCue Name="Exit Cue" ID="{B8530E0B-2FDA-438D-81E9-EC738CE85D01}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="105692.3125"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{4261952D-EFEE-493C-BCAD-FB91FF478AEF}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{8DC59325-DCCD-491D-8D5B-3EFC385B2524}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{DF5470F3-826B-42ED-B0D0-7A6C3808A9C0}" ShortID="692335032"/>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

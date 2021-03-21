@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{39DF2288-516E-427E-98C9-2EBA95CA21DE}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{39DF2288-516E-427E-98C9-2EBA95CA21DE}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Balloon Pop" ID="{72C7CF84-E03C-4A8E-A06E-EA8C18CD6B09}" ShortID="956663808">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7AF20385-E6D7-4E32-BBE8-26C9186E743A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{91FDDDF9-465E-4D99-96E5-267DBCC7889E}"/>
+						</Reference>
+					</ReferenceList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
