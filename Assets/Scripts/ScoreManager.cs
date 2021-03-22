@@ -6,7 +6,7 @@ using TMPro;
 
 public class ScoreManager : MonoBehaviour
 {
-    [SerializeField] uint currentScore = 0;
+    [SerializeField] ulong currentScore = 0;
     [SerializeField] TextMeshProUGUI scoreText;
     [SerializeField] TextMeshProUGUI multiplierText;
 
@@ -43,7 +43,7 @@ public class ScoreManager : MonoBehaviour
         multiplierText.text = "x" + currentMultipler.ToString();
     }
 
-    public uint GetScore()
+    public ulong GetScore()
     {
         return currentScore;
     }

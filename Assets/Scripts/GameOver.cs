@@ -11,7 +11,7 @@ public class GameOver : MonoBehaviour
     [SerializeField] private TextMeshProUGUI scoreText;
     [SerializeField] private GameObject submittedText;
 
-    private uint score;
+    private ulong score;
 
     private void Start()
     {
