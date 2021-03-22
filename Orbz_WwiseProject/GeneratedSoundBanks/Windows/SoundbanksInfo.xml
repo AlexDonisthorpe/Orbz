@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>/Users/dillanhoyos/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Orbz/Orbz_WwiseProject/</ProjectRoot>
-		<SourceFilesRoot>/Users/dillanhoyos/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Orbz/Orbz_WwiseProject/.cache/Windows/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/dillanhoyos/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Orbz/Orbz_WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ProjectRoot>C:\Users\alexd\Documents\Games\Orbz\Orbz_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\alexd\Documents\Games\Orbz\Orbz_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\alexd\Documents\Games\Orbz\Orbz_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>/Users/dillanhoyos/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Orbz/Orbz_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\alexd\Documents\Games\Orbz\Orbz_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2865073903">
+		<SoundBank Id="3161908922" Language="SFX" Hash="3003072981">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -25,7 +25,7 @@
 					<IncludedMemoryFiles>
 						<File Id="651483716" Language="SFX">
 							<ShortName>Cyberpunk ambiance.wav</ShortName>
-							<Path>SFX/Cyberpunk ambiance_D79FB2B7.wem</Path>
+							<Path>SFX\Cyberpunk ambiance_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -34,7 +34,7 @@
 					<IncludedMemoryFiles>
 						<File Id="996110553" Language="SFX">
 							<ShortName>HAckathonasd.wav</ShortName>
-							<Path>SFX/HAckathonasd_D79FB2B7.wem</Path>
+							<Path>SFX\HAckathonasd_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
@@ -111,11 +111,11 @@
 					<IncludedMemoryFiles>
 						<File Id="131983205" Language="SFX">
 							<ShortName>WaterBalloonSplash_S011WR_5.wav</ShortName>
-							<Path>SFX/WaterBalloonSplash_S011WR_5_10C4C929.wem</Path>
+							<Path>SFX\WaterBalloonSplash_S011WR_5_10C4C929.wem</Path>
 						</File>
 						<File Id="981575088" Language="SFX">
 							<ShortName>SSMiM_Balloon_Tap16.wav</ShortName>
-							<Path>SFX/SSMiM_Balloon_Tap16_163E9266.wem</Path>
+							<Path>SFX\SSMiM_Balloon_Tap16_163E9266.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

@@ -13,24 +13,24 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
-  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
       ObjectType: 12
     ParentPath: Default Work Unit
     guid: 1999bd80fcbf9242827c1c4bb158dc6f
     GuidInternal: 
-    m_lastTime: -8585853220454775808
+    m_lastTime: -8585852347518783537
     List: []
   AuxBusWwu:
-  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
       ObjectType: 12
     ParentPath: Default Work Unit
     guid: f9ddfd915e46994d96e5267dbcc7889e
     GuidInternal: 
-    m_lastTime: -8585853216784775808
+    m_lastTime: -8585852347523794512
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -40,7 +40,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Master Audio Bus
         ObjectType: 2
-      Path: Default Work Unit/Master Audio Bus
+      Path: Default Work Unit\Master Audio Bus
     - name: Modulation Bus
       guid: b40d479070a9dc408837d6ecb7d0e18d
       id: 1079306201
@@ -49,16 +49,16 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Modulation Bus
         ObjectType: 2
-      Path: Default Work Unit/Modulation Bus
+      Path: Default Work Unit\Modulation Bus
   BankWwu:
-  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
       ObjectType: 12
     ParentPath: Default Work Unit
     guid: 6c12f82cdaaad74b8a0e82c254240037
     GuidInternal: 
-    m_lastTime: -8585852375464775808
+    m_lastTime: -8585852347518813543
     List:
     - name: Main
       guid: 5e0e51541b90604e8f630f860372d681
@@ -68,16 +68,16 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Main
         ObjectType: 7
-      Path: Default Work Unit/Main
+      Path: Default Work Unit\Main
   EventWwu:
-  - PhysicalPath: Events/Default Work Unit.wwu
+  - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
       ObjectType: 12
     ParentPath: Default Work Unit
     guid: 119890033ba8f24bb9645426eb8e5d88
     GuidInternal: 
-    m_lastTime: -8585852358244775808
+    m_lastTime: -8585852322632367506
     List:
     - name: Menu
       guid: be5163cce5e7e945ae82cb6ca170f9c7
@@ -87,10 +87,10 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Menu
         ObjectType: 3
-      Path: Default Work Unit/Menu
+      Path: Default Work Unit\Menu
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 210
+      minDuration: 210
     - name: MenuStop
       guid: 47076b4ccb4ec449b58f16ef1360587c
       id: 1074254744
@@ -99,10 +99,10 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: MenuStop
         ObjectType: 3
-      Path: Default Work Unit/MenuStop
+      Path: Default Work Unit\MenuStop
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: MUSIC
       guid: 1369e2520f07cb449b307d8856f6494a
       id: 3991942870
@@ -111,7 +111,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: MUSIC
         ObjectType: 3
-      Path: Default Work Unit/MUSIC
+      Path: Default Work Unit\MUSIC
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -123,10 +123,10 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: MUSICSTOP
         ObjectType: 3
-      Path: Default Work Unit/MUSICSTOP
+      Path: Default Work Unit\MUSICSTOP
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: POP
       guid: b70e063b07127e438d75922534796119
       id: 1081563622
@@ -135,10 +135,10 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: POP
         ObjectType: 3
-      Path: Default Work Unit/POP
+      Path: Default Work Unit\POP
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.228644
+      minDuration: 0.958976
     - name: SETSTATE
       guid: 81f86e727afd59459c2576c6f6f6020b
       id: 293623666
@@ -147,10 +147,10 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: SETSTATE
         ObjectType: 3
-      Path: Default Work Unit/SETSTATE
+      Path: Default Work Unit\SETSTATE
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: SETSTATE2
       guid: eae9de301e26e3459ee760d66803a913
       id: 4278822980
@@ -159,10 +159,10 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: SETSTATE2
         ObjectType: 3
-      Path: Default Work Unit/SETSTATE2
+      Path: Default Work Unit\SETSTATE2
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: SETSTATE3
       guid: b56c54aab3d24d43989aa284231aea27
       id: 4278822981
@@ -171,10 +171,10 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: SETSTATE3
         ObjectType: 3
-      Path: Default Work Unit/SETSTATE3
+      Path: Default Work Unit\SETSTATE3
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: SETSTATE4
       guid: 649332947872be4a81c14d0185726976
       id: 4278822978
@@ -183,10 +183,10 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: SETSTATE4
         ObjectType: 3
-      Path: Default Work Unit/SETSTATE4
+      Path: Default Work Unit\SETSTATE4
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: SETSTATE5
       guid: 29c899c54c440041847620e2976aedfa
       id: 4278822979
@@ -195,10 +195,10 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: SETSTATE5
         ObjectType: 3
-      Path: Default Work Unit/SETSTATE5
+      Path: Default Work Unit\SETSTATE5
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: SETSTATE6
       guid: 41df56a527faaf4a953a86ec3a9564be
       id: 4278822976
@@ -207,29 +207,29 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: SETSTATE6
         ObjectType: 3
-      Path: Default Work Unit/SETSTATE6
+      Path: Default Work Unit\SETSTATE6
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
-  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
       ObjectType: 12
     ParentPath: Default Work Unit
     guid: e1f9fba4d1471b42845575a623af4afa
     GuidInternal: 
-    m_lastTime: -8585853220454775808
+    m_lastTime: -8585852347532532240
     List: []
   StateWwu:
-  - PhysicalPath: States/Default Work Unit.wwu
+  - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
       ObjectType: 12
     ParentPath: Default Work Unit
     guid: d6471d156dcccd4db75c6e9093db66f6
     GuidInternal: 
-    m_lastTime: -8585852448384775808
+    m_lastTime: -8585852347518803535
     List:
     - name: MUSIC
       guid: 9719f4eb0f4752478e407e5243fb5f91
@@ -239,7 +239,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: MUSIC
         ObjectType: 9
-      Path: Default Work Unit/MUSIC
+      Path: Default Work Unit\MUSIC
       values:
       - name: as
         guid: 20dc57006cfee04b87667d3dafb33a5f
@@ -287,14 +287,14 @@ MonoBehaviour:
       ValueIcons: []
       valuesInternal: []
   SwitchWwu:
-  - PhysicalPath: Switches/Default Work Unit.wwu
+  - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
       ObjectType: 12
     ParentPath: Default Work Unit
     guid: 0669f6feee7c4341835e5dff4c654133
     GuidInternal: 
-    m_lastTime: -8585852448384775808
+    m_lastTime: -8585852347518793539
     List:
     - name: Music
       guid: 2a1fc6d23a4aeb40bc6933e0fcb01d04
@@ -304,7 +304,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Music
         ObjectType: 11
-      Path: Default Work Unit/Music
+      Path: Default Work Unit\Music
       values:
       - name: MUSIC
         guid: 56baaf4d1bef7f4290c3a731efd92a98
@@ -346,14 +346,14 @@ MonoBehaviour:
       ValueIcons: []
       valuesInternal: []
   TriggerWwu:
-  - PhysicalPath: Triggers/Default Work Unit.wwu
+  - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
       ObjectType: 12
     ParentPath: Default Work Unit
     guid: 6a72e3942e65f84e98ea6191e5ad36f8
     GuidInternal: 
-    m_lastTime: -8585853220454775808
+    m_lastTime: -8585852347518783537
     List: []
   ExpandedItems:
   - /Orbz_WwiseProject

@@ -9,6 +9,6 @@
   <ShowSpatialAudioWarningMsg>true</ShowSpatialAudioWarningMsg>
   <SoundbankPath>Audio/GeneratedSoundBanks</SoundbankPath>
   <WwiseInstallationPathMac>/Volumes/Dillan hoyos/UNITY/Wwise1/Wwise.app</WwiseInstallationPathMac>
-  <WwiseInstallationPathWindows />
-  <WwiseProjectPath>../Orbz_WwiseProject/Orbz_WwiseProject.wproj</WwiseProjectPath>
+  <WwiseInstallationPathWindows>C:\Program Files\Wwise 2019.2.9.7459</WwiseInstallationPathWindows>
+  <WwiseProjectPath>../../Orbz/Orbz_WwiseProject/Orbz_WwiseProject.wproj</WwiseProjectPath>
 </WwiseSettings>

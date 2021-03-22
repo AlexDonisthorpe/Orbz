@@ -21,11 +21,13 @@ public class GameOver : MonoBehaviour
 
     public void ReloadLevel()
     {
+        AkSoundEngine.StopAll();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void ReturnToMenu()
     {
+        AkSoundEngine.StopAll();
         // Assuming Menu is scene 0
         SceneManager.LoadScene(0);
     }
