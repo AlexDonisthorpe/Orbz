@@ -184,7 +184,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: x2
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1f8f26fa5fc90aa42ba18642420b575e, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_renderer: {fileID: 29500955}
   m_maskType: 0
   _SortingLayerID: 0
@@ -1878,6 +1878,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5219788878440969791, guid: 4a9fad0bd29c5d344836b1c900db7d27,
         type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee,
+        type: 2}
+    - target: {fileID: 5219788878440969791, guid: 4a9fad0bd29c5d344836b1c900db7d27,
+        type: 3}
       propertyPath: m_fontSizeMin
       value: 6
       objectReference: {fileID: 0}
@@ -1885,6 +1891,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_enableWordWrapping
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5219788878440969791, guid: 4a9fad0bd29c5d344836b1c900db7d27,
+        type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5933336870239049921, guid: 4a9fad0bd29c5d344836b1c900db7d27,
         type: 3}
