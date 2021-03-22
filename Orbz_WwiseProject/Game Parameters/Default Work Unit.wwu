@@ -3,7 +3,11 @@
 	<GameParameters>
 		<WorkUnit Name="Default Work Unit" ID="{A4FBF9E1-47D1-421B-8455-75A623AF4AFA}" PersistMode="Standalone">
 			<ChildrenList>
-				<GameParameter Name="Modulatiion" ID="{48278AEE-6D9A-480C-AED1-C3D93740F616}"/>
+				<GameParameter Name="Modulatiion" ID="{48278AEE-6D9A-480C-AED1-C3D93740F616}">
+					<PropertyList>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
