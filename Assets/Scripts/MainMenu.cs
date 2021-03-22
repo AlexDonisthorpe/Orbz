@@ -8,12 +8,16 @@ public class MainMenu : MonoBehaviour
     [SerializeField] private GameObject howToPlayCanvas;
     [SerializeField] private GameObject highScoreCanvas;
 
+    private void Start()
+    {
+        AkSoundEngine.PostEvent("Menu", gameObject);
+    }
+
     public void LoadGame()
     {
-      
         // Assuming the game is in a 2nd scene here
+        AkSoundEngine.PostEvent("MenuStop", gameObject);
         SceneManager.LoadScene(1);
-        
     }
 
     public void LoadHowToPlay()

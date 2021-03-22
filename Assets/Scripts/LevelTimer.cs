@@ -4,9 +4,12 @@ using UnityEngine.UI;
 
 public class LevelTimer : MonoBehaviour
 {
-    [SerializeField] float levelDuration = 100;
+    [SerializeField] float levelDuration = 180;
     [SerializeField] Slider slider;
+
     [SerializeField] private GameObject gameOverCanvas;
+    [SerializeField] private GameObject scoreCanvas;
+    [SerializeField] private GameObject timerCanvas;
 
     private float _startTime;
     private bool _started = false;
@@ -16,14 +19,12 @@ public class LevelTimer : MonoBehaviour
 
     public void StartLevel()
     {
-        AkSoundEngine.PostEvent("MenuStop", gameObject);
+        scoreCanvas.SetActive(true);
+        timerCanvas.SetActive(true);
         _startTime = Time.timeSinceLevelLoad;
         _started = true;
         FindObjectOfType<SphereManager>().StartGame();
         AkSoundEngine.PostEvent("MUSIC", gameObject);
-        
-       
-
     }
 
     private void Update()
@@ -45,7 +46,7 @@ public class LevelTimer : MonoBehaviour
     {
         TimeUp();
         gameOverCanvas.SetActive(true);
-        AkSoundEngine.PostEvent("MUSICSTOP", gameObject);
-        AkSoundEngine.PostEvent("Menu", gameObject);
+        timerCanvas.SetActive(false);
+        scoreCanvas.SetActive(false);
     }
 }

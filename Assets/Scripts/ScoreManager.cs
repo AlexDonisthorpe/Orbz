@@ -21,6 +21,12 @@ public class ScoreManager : MonoBehaviour
         UpdateMultiplierText();
     }
 
+    public void DoubleScore()
+    {
+        currentScore = currentScore * 2;
+        UpdateScoreText();
+    }
+
     private void UpdateScoreText()
     {
         scoreText.text = currentScore.ToString();

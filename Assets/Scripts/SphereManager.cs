@@ -31,6 +31,7 @@ public class SphereManager : MonoBehaviour
 
         var newSphere = Instantiate(spherePrefab, GetRandomPosition(), Quaternion.identity);
         newSphere.transform.SetParent(gameObject.transform, true);
+        newSphere.GetComponent<Sphere>().SetColour(GetRandomColor());
         sphereList.Add(newSphere);
     }
 
@@ -45,9 +46,17 @@ public class SphereManager : MonoBehaviour
 
     public void MoveSphere(GameObject sphere)
     {
+        Colours.ColourNames newColour = GetRandomColor();
         sphere.transform.position = GetRandomPosition();
+        sphere.GetComponent<Sphere>().SetColour(newColour);
         SpawnNewSphere();
         AkSoundEngine.PostEvent("POP", gameObject);
+    }
+
+    private Colours.ColourNames GetRandomColor()
+    {
+        Colours.ColourNames[] sphereColors = { Colours.ColourNames.Red, Colours.ColourNames.Blue, Colours.ColourNames.Yellow };
+        return sphereColors[Random.Range(0, 3)];
     }
 
     private void DeleteSpheres()
