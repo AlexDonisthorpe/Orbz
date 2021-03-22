@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{151D47D6-CC6D-4DCD-B75C-6E9093DB66F6}" SchemaVersion="97">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{151D47D6-CC6D-4DCD-B75C-6E9093DB66F6}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="MUSIC" ID="{EBF41997-470F-4752-8E40-7E5243FB5F91}">
+					<ChildrenList>
+						<State Name="None" ID="{BAEA4B03-06CF-4C19-B3CD-D5164465A368}"/>
+						<State Name="NEW" ID="{7C979E90-5BB9-41EE-B635-0346374AA982}"/>
+						<State Name="NE" ID="{16559B1A-CA69-427C-887C-2110ED5261BA}"/>
+						<State Name="as" ID="{0057DC20-FE6C-4BE0-8766-7D3DAFB33A5F}"/>
+						<State Name="sa" ID="{0689AC76-F3A9-4663-832B-475275845CE6}"/>
+						<State Name="da" ID="{5FD86B3D-898A-4952-8585-F502959F93F9}"/>
+						<State Name="wd" ID="{39CBE7BD-C36D-47C7-A72D-FFB691E082F4}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

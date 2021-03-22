@@ -22,6 +22,7 @@ public class SphereManager : MonoBehaviour
     public void StartGame()
     {
         SpawnNewSphere();
+        AkSoundEngine.PostEvent("MenuStop", gameObject);
     }
 
     private void SpawnNewSphere()
@@ -49,6 +50,7 @@ public class SphereManager : MonoBehaviour
         sphere.transform.position = GetRandomPosition();
         sphere.GetComponent<Sphere>().SetColour(newColour);
         SpawnNewSphere();
+        AkSoundEngine.PostEvent("POP", gameObject);
     }
 
     private Colours.ColourNames GetRandomColor()
@@ -61,6 +63,8 @@ public class SphereManager : MonoBehaviour
     {
         foreach(GameObject sphere in sphereList)
         {
+          
+
             Destroy(sphere);
         }
     }

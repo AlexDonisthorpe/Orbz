@@ -1,0 +1,42 @@
+Event	ID	Name			Wwise Object Path	Notes
+	293623666	SETSTATE			\Default Work Unit\SETSTATE	
+	1074254744	MenuStop			\Default Work Unit\MenuStop	
+	1081563622	POP			\Default Work Unit\POP	
+	2607556080	Menu			\Default Work Unit\Menu	
+	3978196478	MUSICSTOP			\Default Work Unit\MUSICSTOP	
+	3991942870	MUSIC			\Default Work Unit\MUSIC	
+	4278822976	SETSTATE6			\Default Work Unit\SETSTATE6	
+	4278822978	SETSTATE4			\Default Work Unit\SETSTATE4	
+	4278822979	SETSTATE5			\Default Work Unit\SETSTATE5	
+	4278822980	SETSTATE2			\Default Work Unit\SETSTATE2	
+	4278822981	SETSTATE3			\Default Work Unit\SETSTATE3	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3991942870	Music			\Default Work Unit\Music	
+
+Switch	ID	Name	Switch Group			Notes
+	1973439776	MUSIC_05	Music			
+	1973439777	MUSIC_04	Music			
+	1973439780	MUSIC_01	Music			
+	1973439782	MUSIC_03	Music			
+	1973439783	MUSIC_02	Music			
+	3991942870	MUSIC	Music			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3991942870	MUSIC			\Default Work Unit\MUSIC	
+
+State	ID	Name	State Group			Notes
+	444308101	NEW	MUSIC			
+	748895195	None	MUSIC			
+	1517751004	wd	MUSIC			
+	1584861541	sa	MUSIC			
+	1668749446	NE	MUSIC			
+	1836525760	da	MUSIC			
+	1886858537	as	MUSIC			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	131983205	WaterBalloonSplash_S011WR_5	Y:\Documents\GitHub\Orbz\Orbz_WwiseProject\.cache\Mac\SFX\WaterBalloonSplash_S011WR_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Balloon Pop\New Blend Container\WaterBalloonSplash_S011WR_5		209984
+	651483716	Menu	Y:\Documents\GitHub\Orbz\Orbz_WwiseProject\.cache\Mac\SFX\Cyberpunk ambiance_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MENU\MENU\MENu\Menu		37044064
+	981575088	SSMiM_Balloon_Tap16	Y:\Documents\GitHub\Orbz\Orbz_WwiseProject\.cache\Mac\SFX\SSMiM_Balloon_Tap16_163E9266.wem		\Actor-Mixer Hierarchy\Default Work Unit\Balloon Pop\New Blend Container\SSMiM_Balloon_Tap16		69480
+	996110553	HAckathonasd	Y:\Documents\GitHub\Orbz\Orbz_WwiseProject\.cache\Mac\SFX\HAckathonasd_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\MUSic\HAckathonasd\HAckathonasd		20292988
+

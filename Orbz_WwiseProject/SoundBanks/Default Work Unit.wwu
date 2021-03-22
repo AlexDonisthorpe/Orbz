@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2CF8126C-AADA-4BD7-8A0E-82C254240037}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{2CF8126C-AADA-4BD7-8A0E-82C254240037}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{54510E5E-901B-4E60-8F63-0F860372D681}">
+					<ObjectInclusionList>
+						<ObjectRef Name="MUSICSTOP" ID="{FAA5E14B-7840-400E-A5A1-F4637B0441BC}" WorkUnitID="{03909811-A83B-4BF2-B964-5426EB8E5D88}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SETSTATE5" ID="{C599C829-444C-4100-8476-20E2976AEDFA}" WorkUnitID="{03909811-A83B-4BF2-B964-5426EB8E5D88}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SETSTATE3" ID="{AA546CB5-D2B3-434D-989A-A284231AEA27}" WorkUnitID="{03909811-A83B-4BF2-B964-5426EB8E5D88}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="POP" ID="{3B060EB7-1207-437E-8D75-922534796119}" WorkUnitID="{03909811-A83B-4BF2-B964-5426EB8E5D88}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MUSIC" ID="{52E26913-070F-44CB-9B30-7D8856F6494A}" WorkUnitID="{03909811-A83B-4BF2-B964-5426EB8E5D88}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SETSTATE" ID="{726EF881-FD7A-4559-9C25-76C6F6F6020B}" WorkUnitID="{03909811-A83B-4BF2-B964-5426EB8E5D88}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SETSTATE2" ID="{30DEE9EA-261E-45E3-9EE7-60D66803A913}" WorkUnitID="{03909811-A83B-4BF2-B964-5426EB8E5D88}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Menu" ID="{CC6351BE-E7E5-45E9-AE82-CB6CA170F9C7}" WorkUnitID="{03909811-A83B-4BF2-B964-5426EB8E5D88}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MenuStop" ID="{4C6B0747-4ECB-49C4-B58F-16EF1360587C}" WorkUnitID="{03909811-A83B-4BF2-B964-5426EB8E5D88}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SETSTATE6" ID="{A556DF41-FA27-4AAF-953A-86EC3A9564BE}" WorkUnitID="{03909811-A83B-4BF2-B964-5426EB8E5D88}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SETSTATE4" ID="{94329364-7278-4ABE-81C1-4D0185726976}" WorkUnitID="{03909811-A83B-4BF2-B964-5426EB8E5D88}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

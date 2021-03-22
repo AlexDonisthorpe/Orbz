@@ -6,10 +6,7 @@ public class LevelTimer : MonoBehaviour
 {
     [SerializeField] float levelDuration = 100;
     [SerializeField] Slider slider;
-
     [SerializeField] private GameObject gameOverCanvas;
-    [SerializeField] private GameObject scoreCanvas;
-    [SerializeField] private GameObject timerCanvas;
 
     private float _startTime;
     private bool _started = false;
@@ -19,11 +16,14 @@ public class LevelTimer : MonoBehaviour
 
     public void StartLevel()
     {
-        scoreCanvas.SetActive(true);
-        timerCanvas.SetActive(true);
+        AkSoundEngine.PostEvent("MenuStop", gameObject);
         _startTime = Time.timeSinceLevelLoad;
         _started = true;
         FindObjectOfType<SphereManager>().StartGame();
+        AkSoundEngine.PostEvent("MUSIC", gameObject);
+        
+       
+
     }
 
     private void Update()
@@ -32,8 +32,6 @@ public class LevelTimer : MonoBehaviour
         {
             float timeRemaining = (Time.timeSinceLevelLoad - _startTime) / levelDuration;
             slider.value = timeRemaining;
-
-            Debug.Log(timeRemaining);
 
             if(timeRemaining >= 1)
             {
@@ -46,8 +44,8 @@ public class LevelTimer : MonoBehaviour
     private void EndLevel()
     {
         TimeUp();
-        timerCanvas.SetActive(false);
-        scoreCanvas.SetActive(false);
         gameOverCanvas.SetActive(true);
+        AkSoundEngine.PostEvent("MUSICSTOP", gameObject);
+        AkSoundEngine.PostEvent("Menu", gameObject);
     }
 }
