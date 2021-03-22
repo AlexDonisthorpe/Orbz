@@ -3739,7 +3739,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1393270737}
   m_CullTransparentMesh: 1
-<<<<<<< Updated upstream
 --- !u!1 &1427186100
 GameObject:
   m_ObjectHideFlags: 0
@@ -3800,20 +3799,11 @@ Transform:
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1427186103
-=======
---- !u!1 &1479326569 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4409166361080572974, guid: 807a7bd560e0bd94487479e0857c6977, type: 3}
-  m_PrefabInstance: {fileID: 2109196982}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1479326570
->>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
   m_GameObject: {fileID: 1427186100}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -3833,14 +3823,6 @@ MonoBehaviour:
   unloadTriggerList: 
   bankNameInternal: 
   valueGuidInternal: 
-=======
-  m_GameObject: {fileID: 1479326569}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0a46f781295c40c5887bfeff53c6077, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
->>>>>>> Stashed changes
 --- !u!1 &1504761189
 GameObject:
   m_ObjectHideFlags: 0
