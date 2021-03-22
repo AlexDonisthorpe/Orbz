@@ -21,6 +21,12 @@ public class MatchingBox : MonoBehaviour
         rendererMaterial.SetColor("_Color", Colours.ColourValue(newColour));
         rendererMaterial.SetColor("_EmissionColor", Colours.ColourValue(newColour));
         currentColour = newColour;
+
+        if(currentColour == Colours.ColourNames.Orange)
+        {
+            rendererMaterial.SetColor("_EmissionColor", new Color32(84, 5, 0, 1));
+        }
+
         Debug.Log($"Setting new colour: {currentColour.ToString()}");
     }
 

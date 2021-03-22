@@ -33,6 +33,8 @@ public class LevelTimer : MonoBehaviour
             float timeRemaining = (Time.timeSinceLevelLoad - _startTime) / levelDuration;
             slider.value = timeRemaining;
 
+            Debug.Log(timeRemaining);
+
             if(timeRemaining >= 1)
             {
                 _started = false;

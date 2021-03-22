@@ -11,6 +11,11 @@ public class Sphere : MonoBehaviour
         material.SetColor("_EmissionColor", Colours.ColourValue(newColour));
         
         currentColour = newColour;
+
+        if(currentColour == Colours.ColourNames.Red)
+        {
+            material.SetColor("_EmissionColor", new Color32(40, 1, 0, 1));
+        }
     }
 
     public Colours.ColourNames GetColour()

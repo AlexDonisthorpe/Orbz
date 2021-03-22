@@ -19,7 +19,7 @@ public class Colours
         //TODO All six colours
         {ColourNames.Red, new Color32(254, 9, 0, 1) },
         {ColourNames.Blue, new Color32(0, 122, 254, 1) },
-        {ColourNames.Yellow, new Color32(254, 224, 0, 1) },
+        {ColourNames.Yellow, new Color32(255, 255, 0, 1) },
         {ColourNames.Purple, new Color32(60, 0, 185, 1) },
         {ColourNames.Orange, new Color32(255, 55, 0, 1) },
         {ColourNames.Green, new Color32(0, 130, 18, 1) }
