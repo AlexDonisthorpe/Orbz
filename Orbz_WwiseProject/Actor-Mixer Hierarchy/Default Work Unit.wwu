@@ -4,9 +4,33 @@
 		<WorkUnit Name="Default Work Unit" ID="{39DF2288-516E-427E-98C9-2EBA95CA21DE}" PersistMode="Standalone">
 			<ChildrenList>
 				<RandomSequenceContainer Name="Balloon Pop" ID="{72C7CF84-E03C-4A8E-A06E-EA8C18CD6B09}" ShortID="956663808">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{C4526ED5-94C9-4D47-B43A-627FBB8B22BF}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="505"/>
+											<Property Name="Min" Type="Real64" Value="-480"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7AF20385-E6D7-4E32-BBE8-26C9186E743A}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+							<ObjectRef Name="Heavy_Metal" ID="{9104321C-9E54-4879-A29A-EF8D46BE9035}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="Effect1" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+							<ObjectRef Name="Echoes_Linear" ID="{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="Effect2" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+							<ObjectRef Name="Church_Small_Wood" ID="{940CCB47-F031-4C6A-B0E6-726CAC418C02}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{91FDDDF9-465E-4D99-96E5-267DBCC7889E}"/>

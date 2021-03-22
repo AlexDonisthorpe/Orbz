@@ -65,6 +65,11 @@ namespace AK
 
     } // namespace SWITCHES
 
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID MODULATIION = 2348804402U;
+    } // namespace GAME_PARAMETERS
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
@@ -74,7 +79,7 @@ namespace AK
     namespace BUSSES
     {
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
-        static const AkUniqueID MODULATION_BUS = 1079306201U;
+        static const AkUniqueID NEW_AUDIO_BUS = 2255513057U;
     } // namespace BUSSES
 
     namespace AUDIO_DEVICES

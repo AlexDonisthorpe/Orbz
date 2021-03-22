@@ -9,13 +9,20 @@
 							<ObjectRef Name="System" ID="{0686D2B1-FC45-40B1-B2B6-72D85A53BAD3}" WorkUnitID="{A9BB13A1-9217-488D-B8E4-2B29D2CF7A45}"/>
 						</Reference>
 					</ReferenceList>
-				</Bus>
-				<Bus Name="Modulation Bus" ID="{90470DB4-A970-40DC-8837-D6ECB7D0E18D}">
-					<ReferenceList>
-						<Reference Name="AudioDevice">
-							<ObjectRef Name="System" ID="{0686D2B1-FC45-40B1-B2B6-72D85A53BAD3}" WorkUnitID="{A9BB13A1-9217-488D-B8E4-2B29D2CF7A45}"/>
-						</Reference>
-					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="New Audio Bus" ID="{E4CD181E-C94E-4746-AF36-BDD0C13FD57C}">
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise_Meter_(Custom)" ID="{1C3C6BBA-466E-4487-B1DD-2F3F2E816E50}" ShortID="956199600" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">											<PluginData>
+	<GameParameter Name="Modulatiion" ID="{48278AEE-6D9A-480C-AED1-C3D93740F616}"/>
+</PluginData>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>
