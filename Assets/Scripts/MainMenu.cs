@@ -10,8 +10,10 @@ public class MainMenu : MonoBehaviour
 
     public void LoadGame()
     {
+      
         // Assuming the game is in a 2nd scene here
         SceneManager.LoadScene(1);
+        
     }
 
     public void LoadHowToPlay()

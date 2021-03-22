@@ -12,6 +12,91 @@
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{91FDDDF9-465E-4D99-96E5-267DBCC7889E}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="New Blend Container" ID="{C314A3CD-B03E-4961-BFCA-F94E203D514E}" ShortID="70087117">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{48F15EC1-EFD5-4EAD-8A06-CA9BC5C02F79}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="227"/>
+													<Property Name="Min" Type="Real64" Value="-202"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7AF20385-E6D7-4E32-BBE8-26C9186E743A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{91FDDDF9-465E-4D99-96E5-267DBCC7889E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SSMiM_Balloon_Tap16" ID="{4E24DD72-208D-4A79-9E9C-DACD62091E48}" ShortID="829646778">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>510</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7AF20385-E6D7-4E32-BBE8-26C9186E743A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{91FDDDF9-465E-4D99-96E5-267DBCC7889E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SSMiM_Balloon_Tap16" ID="{B6AC5713-39DD-4121-BCB6-2BBD086B21DA}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.361545138888889"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SSMiM_Balloon_Tap16.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="981575088"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SSMiM_Balloon_Tap16" ID="{B6AC5713-39DD-4121-BCB6-2BBD086B21DA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WaterBalloonSplash_S011WR_5" ID="{8BC7ECEE-2EF5-4FBC-AF1D-06DD2811231E}" ShortID="1009497139">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7AF20385-E6D7-4E32-BBE8-26C9186E743A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{91FDDDF9-465E-4D99-96E5-267DBCC7889E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WaterBalloonSplash_S011WR_5" ID="{2E2E0513-7FA5-4650-AF5C-FE4ED2930A89}">
+											<Language>SFX</Language>
+											<AudioFile>WaterBalloonSplash_S011WR_5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="131983205"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WaterBalloonSplash_S011WR_5" ID="{2E2E0513-7FA5-4650-AF5C-FE4ED2930A89}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+					</ChildrenList>
 				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>

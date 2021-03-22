@@ -22,6 +22,7 @@ public class SphereManager : MonoBehaviour
     public void StartGame()
     {
         SpawnNewSphere();
+        AkSoundEngine.PostEvent("MenuStop", gameObject);
     }
 
     private void SpawnNewSphere()
@@ -46,12 +47,15 @@ public class SphereManager : MonoBehaviour
     {
         sphere.transform.position = GetRandomPosition();
         SpawnNewSphere();
+        AkSoundEngine.PostEvent("POP", gameObject);
     }
 
     private void DeleteSpheres()
     {
         foreach(GameObject sphere in sphereList)
         {
+          
+
             Destroy(sphere);
         }
     }

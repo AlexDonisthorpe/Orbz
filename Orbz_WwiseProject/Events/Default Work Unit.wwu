@@ -1,6 +1,156 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{03909811-A83B-4BF2-B964-5426EB8E5D88}" SchemaVersion="97">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{03909811-A83B-4BF2-B964-5426EB8E5D88}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{03909811-A83B-4BF2-B964-5426EB8E5D88}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="POP" ID="{3B060EB7-1207-437E-8D75-922534796119}">
+					<ChildrenList>
+						<Action Name="" ID="{E93950C0-3A48-437F-827E-1C75998327BE}" ShortID="908360465">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Balloon Pop" ID="{72C7CF84-E03C-4A8E-A06E-EA8C18CD6B09}" WorkUnitID="{39DF2288-516E-427E-98C9-2EBA95CA21DE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MUSIC" ID="{52E26913-070F-44CB-9B30-7D8856F6494A}">
+					<ChildrenList>
+						<Action Name="" ID="{5DECBF00-3C96-45B9-A0D9-4EAC4DE8D427}" ShortID="686885522">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NE" ID="{16559B1A-CA69-427C-887C-2110ED5261BA}" WorkUnitID="{151D47D6-CC6D-4DCD-B75C-6E9093DB66F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{18F1882A-B03B-4172-9ACE-6D41FD85AB6D}" ShortID="92372815">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MUSIC SWITCH" ID="{A373118A-41E0-45C5-B27C-324A591ADB2D}" WorkUnitID="{A945FEF8-CFC4-4BA3-92FF-9BA63BC60117}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SETSTATE" ID="{726EF881-FD7A-4559-9C25-76C6F6F6020B}">
+					<ChildrenList>
+						<Action Name="" ID="{375802F4-FA1E-49C6-9C56-461101749BC9}" ShortID="909426744">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="as" ID="{0057DC20-FE6C-4BE0-8766-7D3DAFB33A5F}" WorkUnitID="{151D47D6-CC6D-4DCD-B75C-6E9093DB66F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SETSTATE2" ID="{30DEE9EA-261E-45E3-9EE7-60D66803A913}">
+					<ChildrenList>
+						<Action Name="" ID="{54E0CE5B-26BE-49CE-A2F9-4AF0BC3571A3}" ShortID="63263617">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sa" ID="{0689AC76-F3A9-4663-832B-475275845CE6}" WorkUnitID="{151D47D6-CC6D-4DCD-B75C-6E9093DB66F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SETSTATE3" ID="{AA546CB5-D2B3-434D-989A-A284231AEA27}">
+					<ChildrenList>
+						<Action Name="" ID="{CA1FDE7A-916A-41F6-A15B-C59F7810B245}" ShortID="210629847">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="wd" ID="{39CBE7BD-C36D-47C7-A72D-FFB691E082F4}" WorkUnitID="{151D47D6-CC6D-4DCD-B75C-6E9093DB66F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SETSTATE4" ID="{94329364-7278-4ABE-81C1-4D0185726976}">
+					<ChildrenList>
+						<Action Name="" ID="{D1B587AA-C43D-4712-9548-070E8AD4B7B0}" ShortID="958290471">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NEW" ID="{7C979E90-5BB9-41EE-B635-0346374AA982}" WorkUnitID="{151D47D6-CC6D-4DCD-B75C-6E9093DB66F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SETSTATE5" ID="{C599C829-444C-4100-8476-20E2976AEDFA}">
+					<ChildrenList>
+						<Action Name="" ID="{69783A02-8C8C-46D2-846A-DD08BC7F575D}" ShortID="818814757">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sa" ID="{0689AC76-F3A9-4663-832B-475275845CE6}" WorkUnitID="{151D47D6-CC6D-4DCD-B75C-6E9093DB66F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SETSTATE6" ID="{A556DF41-FA27-4AAF-953A-86EC3A9564BE}">
+					<ChildrenList>
+						<Action Name="" ID="{B34562C8-07F2-4FE1-AE9B-100B627595D1}" ShortID="308680355">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="wd" ID="{39CBE7BD-C36D-47C7-A72D-FFB691E082F4}" WorkUnitID="{151D47D6-CC6D-4DCD-B75C-6E9093DB66F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MUSICSTOP" ID="{FAA5E14B-7840-400E-A5A1-F4637B0441BC}">
+					<ChildrenList>
+						<Action Name="" ID="{50762739-34C4-44C3-B0B8-07ED58586D2D}" ShortID="605177664">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MenuStop" ID="{4C6B0747-4ECB-49C4-B58F-16EF1360587C}">
+					<ChildrenList>
+						<Action Name="" ID="{B7E5E77A-6B19-4BE9-8E98-E82ED06F3B4B}" ShortID="662697478">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Menu" ID="{CC6351BE-E7E5-45E9-AE82-CB6CA170F9C7}">
+					<ChildrenList>
+						<Action Name="" ID="{E711547C-97D8-4196-A80D-236E8DC2AEE2}" ShortID="313702550">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MENU" ID="{4ACECE4B-13A0-422B-A9A7-44B47902D89C}" WorkUnitID="{A945FEF8-CFC4-4BA3-92FF-9BA63BC60117}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

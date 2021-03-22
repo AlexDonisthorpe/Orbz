@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>/Users/dillanhoyos/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Orbz/Orbz_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/dillanhoyos/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Orbz/Orbz_WwiseProject/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/dillanhoyos/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Orbz/Orbz_WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/dillanhoyos/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Orbz/Orbz_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3237734649">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="2865073903">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2607556080" Name="Menu" ObjectPath="\Events\Default Work Unit\Menu" DurationType="OneShot" DurationMin="210.000000" DurationMax="210.000000">
+					<IncludedMemoryFiles>
+						<File Id="651483716" Language="SFX">
+							<ShortName>Cyberpunk ambiance.wav</ShortName>
+							<Path>SFX/Cyberpunk ambiance_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1074254744" Name="MenuStop" ObjectPath="\Events\Default Work Unit\MenuStop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3991942870" Name="MUSIC" ObjectPath="\Events\Default Work Unit\MUSIC" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="996110553" Language="SFX">
+							<ShortName>HAckathonasd.wav</ShortName>
+							<Path>SFX/HAckathonasd_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{0057DC20-FE6C-4BE0-8766-7D3DAFB33A5F}">
+							<Children>
+								<SwitchContainer SwitchValue="{D2C61F2A-4A3A-40EB-BC69-33E0FCB01D04}">
+									<Media>
+										<File Id="996110553"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{5FD86B3D-898A-4952-8585-F502959F93F9}">
+							<Children>
+								<SwitchContainer SwitchValue="{D2C61F2A-4A3A-40EB-BC69-33E0FCB01D04}">
+									<Media>
+										<File Id="996110553"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{16559B1A-CA69-427C-887C-2110ED5261BA}">
+							<Children>
+								<SwitchContainer SwitchValue="{D2C61F2A-4A3A-40EB-BC69-33E0FCB01D04}">
+									<Media>
+										<File Id="996110553"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{7C979E90-5BB9-41EE-B635-0346374AA982}">
+							<Children>
+								<SwitchContainer SwitchValue="{D2C61F2A-4A3A-40EB-BC69-33E0FCB01D04}">
+									<Media>
+										<File Id="996110553"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{BAEA4B03-06CF-4C19-B3CD-D5164465A368}">
+							<Children>
+								<SwitchContainer SwitchValue="{D2C61F2A-4A3A-40EB-BC69-33E0FCB01D04}">
+									<Media>
+										<File Id="996110553"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{0689AC76-F3A9-4663-832B-475275845CE6}">
+							<Children>
+								<SwitchContainer SwitchValue="{D2C61F2A-4A3A-40EB-BC69-33E0FCB01D04}">
+									<Media>
+										<File Id="996110553"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{39CBE7BD-C36D-47C7-A72D-FFB691E082F4}">
+							<Children>
+								<SwitchContainer SwitchValue="{D2C61F2A-4A3A-40EB-BC69-33E0FCB01D04}">
+									<Media>
+										<File Id="996110553"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1668749446" Name="NE" ObjectPath="\States\Default Work Unit\MUSIC\NE"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3978196478" Name="MUSICSTOP" ObjectPath="\Events\Default Work Unit\MUSICSTOP" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1081563622" Name="POP" ObjectPath="\Events\Default Work Unit\POP" DurationType="OneShot" DurationMin="0.958976" DurationMax="1.228644">
+					<IncludedMemoryFiles>
+						<File Id="131983205" Language="SFX">
+							<ShortName>WaterBalloonSplash_S011WR_5.wav</ShortName>
+							<Path>SFX/WaterBalloonSplash_S011WR_5_10C4C929.wem</Path>
+						</File>
+						<File Id="981575088" Language="SFX">
+							<ShortName>SSMiM_Balloon_Tap16.wav</ShortName>
+							<Path>SFX/SSMiM_Balloon_Tap16_163E9266.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="293623666" Name="SETSTATE" ObjectPath="\Events\Default Work Unit\SETSTATE" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1886858537" Name="as" ObjectPath="\States\Default Work Unit\MUSIC\as"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="4278822980" Name="SETSTATE2" ObjectPath="\Events\Default Work Unit\SETSTATE2" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1584861541" Name="sa" ObjectPath="\States\Default Work Unit\MUSIC\sa"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="4278822981" Name="SETSTATE3" ObjectPath="\Events\Default Work Unit\SETSTATE3" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1517751004" Name="wd" ObjectPath="\States\Default Work Unit\MUSIC\wd"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="4278822978" Name="SETSTATE4" ObjectPath="\Events\Default Work Unit\SETSTATE4" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="444308101" Name="NEW" ObjectPath="\States\Default Work Unit\MUSIC\NEW"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="4278822979" Name="SETSTATE5" ObjectPath="\Events\Default Work Unit\SETSTATE5" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1584861541" Name="sa" ObjectPath="\States\Default Work Unit\MUSIC\sa"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="4278822976" Name="SETSTATE6" ObjectPath="\Events\Default Work Unit\SETSTATE6" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1517751004" Name="wd" ObjectPath="\States\Default Work Unit\MUSIC\wd"/>
+					</ActionSetState>
+				</Event>
+			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="444308101" Name="NEW" ObjectPath="\States\Default Work Unit\MUSIC\NEW">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1517751004" Name="wd" ObjectPath="\States\Default Work Unit\MUSIC\wd">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1584861541" Name="sa" ObjectPath="\States\Default Work Unit\MUSIC\sa">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1668749446" Name="NE" ObjectPath="\States\Default Work Unit\MUSIC\NE">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1886858537" Name="as" ObjectPath="\States\Default Work Unit\MUSIC\as">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3991942870" Name="MUSIC" ObjectPath="\States\Default Work Unit\MUSIC">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\MUSIC\None"/>
+						<State Id="444308101" Name="NEW" ObjectPath="\States\Default Work Unit\MUSIC\NEW"/>
+						<State Id="1668749446" Name="NE" ObjectPath="\States\Default Work Unit\MUSIC\NE"/>
+						<State Id="1886858537" Name="as" ObjectPath="\States\Default Work Unit\MUSIC\as"/>
+						<State Id="1584861541" Name="sa" ObjectPath="\States\Default Work Unit\MUSIC\sa"/>
+						<State Id="1836525760" Name="da" ObjectPath="\States\Default Work Unit\MUSIC\da"/>
+						<State Id="1517751004" Name="wd" ObjectPath="\States\Default Work Unit\MUSIC\wd"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="3991942870" Name="Music" ObjectPath="\Switches\Default Work Unit\Music">
+					<Switches>
+						<Switch Id="3991942870" Name="MUSIC" ObjectPath="\Switches\Default Work Unit\Music\MUSIC"/>
+						<Switch Id="1973439780" Name="MUSIC_01" ObjectPath="\Switches\Default Work Unit\Music\MUSIC_01"/>
+						<Switch Id="1973439783" Name="MUSIC_02" ObjectPath="\Switches\Default Work Unit\Music\MUSIC_02"/>
+						<Switch Id="1973439782" Name="MUSIC_03" ObjectPath="\Switches\Default Work Unit\Music\MUSIC_03"/>
+						<Switch Id="1973439777" Name="MUSIC_04" ObjectPath="\Switches\Default Work Unit\Music\MUSIC_04"/>
+						<Switch Id="1973439776" Name="MUSIC_05" ObjectPath="\Switches\Default Work Unit\Music\MUSIC_05"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -16,9 +16,14 @@ public class LevelTimer : MonoBehaviour
 
     public void StartLevel()
     {
+        AkSoundEngine.PostEvent("MenuStop", gameObject);
         _startTime = Time.timeSinceLevelLoad;
         _started = true;
         FindObjectOfType<SphereManager>().StartGame();
+        AkSoundEngine.PostEvent("MUSIC", gameObject);
+        
+       
+
     }
 
     private void Update()
@@ -40,5 +45,7 @@ public class LevelTimer : MonoBehaviour
     {
         TimeUp();
         gameOverCanvas.SetActive(true);
+        AkSoundEngine.PostEvent("MUSICSTOP", gameObject);
+        AkSoundEngine.PostEvent("Menu", gameObject);
     }
 }
