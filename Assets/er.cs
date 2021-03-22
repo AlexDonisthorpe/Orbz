@@ -10,6 +10,7 @@ public class er : MonoBehaviour
 
     [SerializeField] int scaleMultiplier = 2;
     [SerializeField] int smoothingMultiplier = 4;
+    [SerializeField] int powMultiplier = -2;
 
     // Update is called once per frame
     void Update()
@@ -28,7 +29,7 @@ public class er : MonoBehaviour
         // Scaling the value down and smoothing the value a little for visual representation
         value = scaleMultiplier * (value + 48) / 48;
         value = Mathf.Round(value * 1000f) / 1000f;
-        value = Mathf.Pow(value, 2);
+        value = Mathf.Pow(value, powMultiplier);
 
         // Setting the scale ~
         transform.localScale = Vector3.Lerp(transform.localScale, new Vector3(value, value, value), (Time.deltaTime * smoothingMultiplier));

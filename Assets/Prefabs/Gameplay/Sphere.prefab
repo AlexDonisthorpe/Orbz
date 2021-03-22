@@ -123,3 +123,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleMultiplier: 2
   smoothingMultiplier: 4
+  powMultiplier: -2
