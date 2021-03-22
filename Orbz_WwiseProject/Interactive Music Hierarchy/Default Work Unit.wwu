@@ -4,6 +4,13 @@
 		<WorkUnit Name="Default Work Unit" ID="{A945FEF8-CFC4-4BA3-92FF-9BA63BC60117}" PersistMode="Standalone">
 			<ChildrenList>
 				<MusicSwitchContainer Name="MUSIC SWITCH" ID="{A373118A-41E0-45C5-B27C-324A591ADB2D}" ShortID="619136882">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7AF20385-E6D7-4E32-BBE8-26C9186E743A}"/>
@@ -1489,6 +1496,13 @@
 							<TransitionInfo/>
 						</MusicTransition>
 					</TransitionList>
+					<EntryList>
+						<Entry>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="MENU" ID="{4ACECE4B-13A0-422B-A9A7-44B47902D89C}" WorkUnitID="{A945FEF8-CFC4-4BA3-92FF-9BA63BC60117}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
 				</MusicSwitchContainer>
 			</ChildrenList>
 		</WorkUnit>

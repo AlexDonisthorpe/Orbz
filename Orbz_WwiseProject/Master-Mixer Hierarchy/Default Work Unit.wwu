@@ -11,10 +11,21 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="New Audio Bus" ID="{E4CD181E-C94E-4746-AF36-BDD0C13FD57C}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>12546</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Effect0">
 									<Custom>
-										<Effect Name="Wwise_Meter_(Custom)" ID="{1C3C6BBA-466E-4487-B1DD-2F3F2E816E50}" ShortID="956199600" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">											<PluginData>
+										<Effect Name="Wwise_Meter_(Custom)" ID="{1C3C6BBA-466E-4487-B1DD-2F3F2E816E50}" ShortID="956199600" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+											<PropertyList>
+												<Property Name="ApplyDownstreamVolume" Type="bool" Value="True"/>
+											</PropertyList>
+											<PluginData>
 	<GameParameter Name="Modulatiion" ID="{48278AEE-6D9A-480C-AED1-C3D93740F616}"/>
 </PluginData>
 										</Effect>

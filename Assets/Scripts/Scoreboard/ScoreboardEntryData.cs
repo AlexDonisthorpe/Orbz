@@ -4,7 +4,7 @@ namespace Orbz.Scoreboards
     public struct ScoreboardEntryData
     {
         public string entryName;
-        public uint entryScore;
+        public ulong entryScore;
         public string entryHash;
     }
 }
