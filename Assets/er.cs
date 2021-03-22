@@ -6,7 +6,7 @@ public class er : MonoBehaviour
 
 {
     //set your RTPCID to the name of your desired gameparameter (under GameSyncs)
-    public static string rtpcID = "Modulation";
+    public static string rtpcID = "Modulatiion";
 
     [SerializeField] int scaleMultiplier = 2;
     [SerializeField] int smoothingMultiplier = 4;

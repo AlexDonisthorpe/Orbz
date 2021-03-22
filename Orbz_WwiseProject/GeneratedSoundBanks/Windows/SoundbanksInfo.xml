@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="459894477">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1677390023">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -21,7 +21,7 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2607556080" Name="Menu" ObjectPath="\Events\Default Work Unit\Menu">
+				<Event Id="2607556080" Name="Menu" ObjectPath="\Events\Default Work Unit\Menu" DurationType="OneShot" DurationMin="210.000000" DurationMax="210.000000">
 					<IncludedMemoryFiles>
 						<File Id="651483716" Language="SFX">
 							<ShortName>Cyberpunk ambiance.wav</ShortName>
@@ -29,8 +29,8 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1074254744" Name="MenuStop" ObjectPath="\Events\Default Work Unit\MenuStop"/>
-				<Event Id="3991942870" Name="MUSIC" ObjectPath="\Events\Default Work Unit\MUSIC">
+				<Event Id="1074254744" Name="MenuStop" ObjectPath="\Events\Default Work Unit\MenuStop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3991942870" Name="MUSIC" ObjectPath="\Events\Default Work Unit\MUSIC" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="996110553" Language="SFX">
 							<ShortName>HAckathonasd.wav</ShortName>
@@ -106,8 +106,8 @@
 						<ActionSetStateEntry Id="1668749446" Name="NE" ObjectPath="\States\Default Work Unit\MUSIC\NE"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="3978196478" Name="MUSICSTOP" ObjectPath="\Events\Default Work Unit\MUSICSTOP"/>
-				<Event Id="1081563622" Name="POP" ObjectPath="\Events\Default Work Unit\POP">
+				<Event Id="3978196478" Name="MUSICSTOP" ObjectPath="\Events\Default Work Unit\MUSICSTOP" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1081563622" Name="POP" ObjectPath="\Events\Default Work Unit\POP" DurationType="OneShot" DurationMin="0.716348" DurationMax="1.621205">
 					<IncludedMemoryFiles>
 						<File Id="131983205" Language="SFX">
 							<ShortName>WaterBalloonSplash_S011WR_5.wav</ShortName>
@@ -119,32 +119,32 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="293623666" Name="SETSTATE" ObjectPath="\Events\Default Work Unit\SETSTATE">
+				<Event Id="293623666" Name="SETSTATE" ObjectPath="\Events\Default Work Unit\SETSTATE" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
 					<ActionSetState>
 						<ActionSetStateEntry Id="1886858537" Name="as" ObjectPath="\States\Default Work Unit\MUSIC\as"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="4278822980" Name="SETSTATE2" ObjectPath="\Events\Default Work Unit\SETSTATE2">
+				<Event Id="4278822980" Name="SETSTATE2" ObjectPath="\Events\Default Work Unit\SETSTATE2" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
 					<ActionSetState>
 						<ActionSetStateEntry Id="1584861541" Name="sa" ObjectPath="\States\Default Work Unit\MUSIC\sa"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="4278822981" Name="SETSTATE3" ObjectPath="\Events\Default Work Unit\SETSTATE3">
+				<Event Id="4278822981" Name="SETSTATE3" ObjectPath="\Events\Default Work Unit\SETSTATE3" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
 					<ActionSetState>
 						<ActionSetStateEntry Id="1517751004" Name="wd" ObjectPath="\States\Default Work Unit\MUSIC\wd"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="4278822978" Name="SETSTATE4" ObjectPath="\Events\Default Work Unit\SETSTATE4">
+				<Event Id="4278822978" Name="SETSTATE4" ObjectPath="\Events\Default Work Unit\SETSTATE4" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
 					<ActionSetState>
 						<ActionSetStateEntry Id="444308101" Name="NEW" ObjectPath="\States\Default Work Unit\MUSIC\NEW"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="4278822979" Name="SETSTATE5" ObjectPath="\Events\Default Work Unit\SETSTATE5">
+				<Event Id="4278822979" Name="SETSTATE5" ObjectPath="\Events\Default Work Unit\SETSTATE5" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
 					<ActionSetState>
 						<ActionSetStateEntry Id="1584861541" Name="sa" ObjectPath="\States\Default Work Unit\MUSIC\sa"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="4278822976" Name="SETSTATE6" ObjectPath="\Events\Default Work Unit\SETSTATE6">
+				<Event Id="4278822976" Name="SETSTATE6" ObjectPath="\Events\Default Work Unit\SETSTATE6" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
 					<ActionSetState>
 						<ActionSetStateEntry Id="1517751004" Name="wd" ObjectPath="\States\Default Work Unit\MUSIC\wd"/>
 					</ActionSetState>
