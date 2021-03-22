@@ -30,6 +30,8 @@ public class er : MonoBehaviour
         value = scaleMultiplier * (value + 48) / 48;
         value = Mathf.Round(value * 1000f) / 1000f;
         value = Mathf.Pow(value, powMultiplier);
+        value = value * 1.3f;
+        
 
         // Setting the scale ~
         transform.localScale = Vector3.Lerp(transform.localScale, new Vector3(value, value, value), (Time.deltaTime * smoothingMultiplier));

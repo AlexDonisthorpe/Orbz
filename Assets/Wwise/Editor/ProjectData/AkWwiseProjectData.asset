@@ -20,11 +20,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 1999bd80fcbf9242827c1c4bb158dc6f
     GuidInternal: 
-<<<<<<< HEAD
     m_lastTime: -8585852286174775808
-=======
-    m_lastTime: -8585852347518783537
->>>>>>> ff0c3fe79f59c494ee2ee07ec4d077685227525d
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -34,11 +30,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: f9ddfd915e46994d96e5267dbcc7889e
     GuidInternal: 
-<<<<<<< HEAD
-    m_lastTime: -8585852248204775808
-=======
-    m_lastTime: -8585852298774557758
->>>>>>> ff0c3fe79f59c494ee2ee07ec4d077685227525d
+    m_lastTime: -8585852228748832220
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -48,11 +40,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Master Audio Bus
         ObjectType: 2
-<<<<<<< HEAD
-      Path: Default Work Unit/Master Audio Bus
-=======
       Path: Default Work Unit\Master Audio Bus
->>>>>>> ff0c3fe79f59c494ee2ee07ec4d077685227525d
     - name: New Audio Bus
       guid: 1e18cde44ec94647af36bdd0c13fd57c
       id: 2255513057
@@ -63,11 +51,7 @@ MonoBehaviour:
         ObjectType: 2
       - ElementName: New Audio Bus
         ObjectType: 2
-<<<<<<< HEAD
-      Path: Default Work Unit/Master Audio Bus/New Audio Bus
-=======
       Path: Default Work Unit\Master Audio Bus\New Audio Bus
->>>>>>> ff0c3fe79f59c494ee2ee07ec4d077685227525d
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -76,11 +60,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 6c12f82cdaaad74b8a0e82c254240037
     GuidInternal: 
-<<<<<<< HEAD
     m_lastTime: -8585852286174775808
-=======
-    m_lastTime: -8585852298771389962
->>>>>>> ff0c3fe79f59c494ee2ee07ec4d077685227525d
     List:
     - name: Main
       guid: 5e0e51541b90604e8f630f860372d681
@@ -99,11 +79,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 119890033ba8f24bb9645426eb8e5d88
     GuidInternal: 
-<<<<<<< HEAD
     m_lastTime: -8585852286204775808
-=======
-    m_lastTime: -8585852298227982831
->>>>>>> ff0c3fe79f59c494ee2ee07ec4d077685227525d
     List:
     - name: Menu
       guid: be5163cce5e7e945ae82cb6ca170f9c7
@@ -245,11 +221,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: e1f9fba4d1471b42845575a623af4afa
     GuidInternal: 
-<<<<<<< HEAD
-    m_lastTime: -8585852248204775808
-=======
-    m_lastTime: -8585852298782972602
->>>>>>> ff0c3fe79f59c494ee2ee07ec4d077685227525d
+    m_lastTime: -8585852241279924638
     List:
     - name: Modulatiion
       guid: ee8a27489a6d0c48aed1c3d93740f616
@@ -259,11 +231,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Modulatiion
         ObjectType: 13
-<<<<<<< HEAD
-      Path: Default Work Unit/Modulatiion
-=======
       Path: Default Work Unit\Modulatiion
->>>>>>> ff0c3fe79f59c494ee2ee07ec4d077685227525d
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -272,11 +240,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: d6471d156dcccd4db75c6e9093db66f6
     GuidInternal: 
-<<<<<<< HEAD
     m_lastTime: -8585852286174775808
-=======
-    m_lastTime: -8585852298771379960
->>>>>>> ff0c3fe79f59c494ee2ee07ec4d077685227525d
     List:
     - name: MUSIC
       guid: 9719f4eb0f4752478e407e5243fb5f91
@@ -341,11 +305,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 0669f6feee7c4341835e5dff4c654133
     GuidInternal: 
-<<<<<<< HEAD
     m_lastTime: -8585852286174775808
-=======
-    m_lastTime: -8585852298771379960
->>>>>>> ff0c3fe79f59c494ee2ee07ec4d077685227525d
     List:
     - name: Music
       guid: 2a1fc6d23a4aeb40bc6933e0fcb01d04
@@ -404,23 +364,8 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 6a72e3942e65f84e98ea6191e5ad36f8
     GuidInternal: 
-<<<<<<< HEAD
     m_lastTime: -8585852286174775808
-=======
-    m_lastTime: -8585852347518783537
->>>>>>> ff0c3fe79f59c494ee2ee07ec4d077685227525d
     List: []
-  ExpandedItems:
-  - /Orbz_WwiseProject
-  - /Orbz_WwiseProject/Auxiliary Busses
-  - /Orbz_WwiseProject/Auxiliary Busses/Default Work Unit
-  - /Orbz_WwiseProject/Auxiliary Busses/Default Work Unit/Master Audio Bus
-  - /Orbz_WwiseProject/Events
-  - /Orbz_WwiseProject/Events/Default Work Unit
-  - /Orbz_WwiseProject/SoundBanks
-  - /Orbz_WwiseProject/States
-  - /Orbz_WwiseProject/States/Default Work Unit
-  - /Orbz_WwiseProject/Switches
-  - /Orbz_WwiseProject/Switches/Default Work Unit
+  ExpandedItems: []
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
